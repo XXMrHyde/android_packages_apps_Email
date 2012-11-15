@@ -20,6 +20,7 @@
     android:layout_height="wrap_content"
     android:layout_toLeftOf="@+id/show_details"
     android:paddingTop="14dp"
+    android:background="#ff0f0f0f"
     android:paddingBottom="7dp"
     android:orientation="vertical"
     android:stretchColumns="2"
