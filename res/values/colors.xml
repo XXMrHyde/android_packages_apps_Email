@@ -73,4 +73,22 @@
 
     <!-- Compose colors -->
     <color name="compose_label_text">#aaaaaa</color>
+
+<!-- XXMrHyde Additions -->
+
+	<!-- Additional text colors -->
+    <color name="device_id_textColor">#ffbebebe</color>
+    <color name="error_message_textColor">#ff000000</color>
+    <color name="attachment_name_textColor">#ff333333</color>
+    <color name="loading_textColor">#60ffffff</color>
+    <color name="loading_text_shadowColor">#ff000000</color>
+
+	<!-- Additional background colors -->
+    <color name="search_header_bg">#ff666666</color>
+    <color name="message_view_attachment_bg">#ffe5e5e5</color>
+    <color name="divider_bg">#ff808080</color>
+    <color name="quoted_text_bar_bg">#ffbebebe</color>
+
+	<!-- Additional global colors -->
+    <color name="white">#ffffffff</color>
 </resources>

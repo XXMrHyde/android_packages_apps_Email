@@ -36,6 +36,12 @@
         <item name="android:textColor">@color/account_setup_headline_color</item>
     </style>
 
+    <!-- Info text in any account setup screen -->
+    <style name="accountSetupInfoText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/account_setup_info_text_color</item>
+    </style>
+
     <!-- Wizard buttons on the account setup screens -->
     <!-- TODO these are estimates for the phone UX - final sizes TBD -->
     <style name="accountSetupButton">
@@ -223,5 +229,15 @@
         <item name="android:textColor">#777777</item>
         <item name="android:textSize">12sp</item>
     </style>
+
+	<!-- XXMrHyde Additions -->
+
+    <style name="Theme.setup.AccountSettings" parent="@android:style/Theme.Holo.Light" />
+
+    <style name="Theme.ShortcutPicker" parent="@android:style/Theme.Holo.Light.DialogWhenLarge" />
+
+    <style name="Theme.MessageCompose" parent="@android:style/Theme.Holo.Light" />
+
+    <style name="Theme.Widget.WidgetConfiguration" parent="@android:style/Theme.Holo.Light.DialogWhenLarge" />
 </resources>
 

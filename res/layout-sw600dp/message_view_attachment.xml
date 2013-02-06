@@ -27,7 +27,7 @@
         android:layout_width="64dip"
         android:layout_height="64dip"
         android:orientation="vertical"
-        android:background="#e5e5e5"
+        android:background="@color/message_view_attachment_bg"
         >
         <ImageView
             android:id="@+id/attachment_icon"
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:textSize="18dip"
-                android:textColor="#333333"
+                android:textColor="@color/attachment_name_textColor"
                 android:singleLine="true"
                 android:ellipsize="middle"
                 />

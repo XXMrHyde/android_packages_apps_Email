@@ -24,9 +24,9 @@
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
         android:gravity="center"
-        android:textColor="#60FFFFFF"
+        android:textColor="@color/loading_textColor"
         android:textSize="20sp"
-        android:shadowColor="#FF000000"
+        android:shadowColor="@color/loading_text_shadowColor"
         android:shadowDx="0.0"
         android:shadowDy="1.0"
         android:shadowRadius="2.0" />
