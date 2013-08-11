@@ -19,7 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@drawable/holobg"
     >
     <ProgressBar
         android:id="@+id/loading_progress"
@@ -149,7 +149,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dip"
                 android:layout_marginRight="16dip"
-                android:background="@android:color/white"
+                android:background="@drawable/holobg"
                 android:visibility="gone"
                 />
 
@@ -189,7 +189,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="4dip"
-                    android:background="@android:color/white"
+                    android:background="@color/white"
                     />
             </ScrollView>
             <!-- end of content area -->
